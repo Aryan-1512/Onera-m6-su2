@@ -1,0 +1,12 @@
+# Large or regenerable solver files - rebuild them from the case/ folder
+*.su2
+flow.vtu
+surface_flow.vtu
+restart_flow.dat
+*.vtk
+# ParaView session files store absolute paths from one computer
+*.pvsm
+# Python / OS clutter
+__pycache__/
+.DS_Store
+Thumbs.db
